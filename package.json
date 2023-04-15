@@ -1,21 +1,44 @@
 {
-  "name": "just_train",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@types/react": "^18.0.28",
-    "@types/react-dom": "^18.0.11",
-    "@vitejs/plugin-react": "^3.1.0",
-    "vite": "^4.2.0"
-  }
+	"name": "just_train",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "eslint . --fix --max-warnings=0",
+		"format": "prettier . --write",
+		"prepare": "husky install"
+	},
+	"dependencies": {
+		"@emotion/react": "^11.10.6",
+		"@emotion/styled": "^11.10.6",
+		"@mui/icons-material": "^5.11.16",
+		"@mui/material": "^5.12.0",
+		"@mui/styled-engine-sc": "^5.12.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"styled-components": "^5.3.9"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.28",
+		"@types/react-dom": "^18.0.11",
+		"@vitejs/plugin-react": "^3.1.0",
+		"eslint": "^8.38.0",
+		"eslint-config-airbnb": "^19.0.4",
+		"eslint-config-prettier": "^8.8.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-jsx-a11y": "^6.7.1",
+		"eslint-plugin-react": "^7.32.2",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"husky": "^8.0.3",
+		"lint-staged": "^13.2.1",
+		"prettier": "2.8.7",
+		"vite": "^4.2.0"
+	},
+	"lint-staged": {
+		"*.js": "npm run lint",
+		"*.{js,css,md,html,json}": "npm run format"
+	}
 }
