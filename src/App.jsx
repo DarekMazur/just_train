@@ -68,7 +68,7 @@ function App() {
 			<Paper>
 				<Container>
 					<Box m={2}>
-						<Typography variant="h2">TESTING</Typography>
+						<Typography variant="h2">Projects for przeprogramowani.pl JavaScript trainig</Typography>
 					</Box>
 					<Tabs
 						variant="fullWidth"
@@ -97,43 +97,43 @@ function App() {
 					</Tabs>
 					<TabPanel value={value} index={0}>
 						<Card elevation="0">
-							<CardHeader title="Module 1 Title" />
+							<CardHeader title="JavaScript basics" />
 							<CardActions>
 								<Button variant={active ? "contained" : "outlined"} onClick={handleClick}>
-									#1
+									Caesar cipher
 								</Button>
 								<Button variant={active ? "contained" : "outlined"} onClick={handleClick}>
-									#2
+									Card validaion
 								</Button>
 								<Button variant={active ? "contained" : "outlined"} onClick={handleClick}>
-									#3
+									Abstract syntax
 								</Button>
 							</CardActions>
-							<CardContent>Lorem Ipsum</CardContent>
+							<CardContent>First projects based on JS basics - Caesar cipher (ROT 13), credit card validator and abstract syntax tree. Click the right button to see the selected application.</CardContent>
 						</Card>
 					</TabPanel>
 
 					<TabPanel value={value} index={1}>
 						<Card elevation="0">
-							<CardHeader title="Module 2 Title" />
+							<CardHeader title="Browser without secrets" />
 							<CardActions>
 								<Button variant={active ? "contained" : "outlined"} onClick={handleClick}>
-									#1
+									Sticky hamburger menu
 								</Button>
 								<Button variant={active ? "contained" : "outlined"} onClick={handleClick}>
-									#2
+									Form validation
 								</Button>
 								<Button variant={active ? "contained" : "outlined"} onClick={handleClick}>
 									#3
 								</Button>
 							</CardActions>
-							<CardContent>Lorem Ipsum</CardContent>
+							<CardContent>Second module project shows the capabilities of JavaScript in a browser environment.</CardContent>
 						</Card>
 					</TabPanel>
 
 					<TabPanel value={value} index={2}>
 						<Card elevation="0">
-							<CardHeader title="Module 3 Title" />
+							<CardHeader title="In the world of frameworks" />
 							<CardActions>
 								<Button variant={active ? "contained" : "outlined"} onClick={handleClick}>
 									#1
@@ -145,7 +145,7 @@ function App() {
 									#3
 								</Button>
 							</CardActions>
-							<CardContent>Lorem Ipsum</CardContent>
+							<CardContent>Last but not least - frameworks.</CardContent>
 						</Card>
 					</TabPanel>
 				</Container>
