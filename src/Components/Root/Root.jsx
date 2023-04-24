@@ -59,20 +59,20 @@ function Root() {
 					<CardHeader title="JavaScript basics" />
 					<CardActions>
 						<Button
-							variant={active === 0 ? 'contained' : 'outlined'}
-							onClick={() => handleClick(0)}
+							variant={active === 1 ? 'contained' : 'outlined'}
+							onClick={() => handleClick(1)}
 						>
 							Caesar cipher
 						</Button>
 						<Button
-							variant={active === 1 ? 'contained' : 'outlined'}
-							onClick={() => handleClick(1)}
+							variant={active === 2 ? 'contained' : 'outlined'}
+							onClick={() => handleClick(2)}
 						>
 							Card validaion
 						</Button>
 						<Button
-							variant={active === 2 ? 'contained' : 'outlined'}
-							onClick={() => handleClick(2)}
+							variant={active === 3 ? 'contained' : 'outlined'}
+							onClick={() => handleClick(3)}
 						>
 							Abstract syntax
 						</Button>
@@ -90,20 +90,20 @@ function Root() {
 					<CardHeader title="Browser without secrets" />
 					<CardActions>
 						<Button
-							variant={active === 0 ? 'contained' : 'outlined'}
+							variant={active === 1 ? 'contained' : 'outlined'}
 							onClick={() => handleClick(0)}
 						>
 							Sticky hamburger menu
 						</Button>
 						<Button
-							variant={active === 1 ? 'contained' : 'outlined'}
-							onClick={() => handleClick(1)}
+							variant={active === 2 ? 'contained' : 'outlined'}
+							onClick={() => handleClick(2)}
 						>
 							Form validation
 						</Button>
 						<Button
-							variant={active === 2 ? 'contained' : 'outlined'}
-							onClick={() => handleClick(2)}
+							variant={active === 3 ? 'contained' : 'outlined'}
+							onClick={() => handleClick(3)}
 						>
 							#3
 						</Button>
@@ -120,20 +120,20 @@ function Root() {
 					<CardHeader title="In the world of frameworks" />
 					<CardActions>
 						<Button
-							variant={active === 0 ? 'contained' : 'outlined'}
-							onClick={() => handleClick(0)}
+							variant={active === 1 ? 'contained' : 'outlined'}
+							onClick={() => handleClick(1)}
 						>
 							#1
 						</Button>
 						<Button
-							variant={active === 1 ? 'contained' : 'outlined'}
-							onClick={() => handleClick(1)}
+							variant={active === 2 ? 'contained' : 'outlined'}
+							onClick={() => handleClick(2)}
 						>
 							#2
 						</Button>
 						<Button
-							variant={active === 2 ? 'contained' : 'outlined'}
-							onClick={() => handleClick(2)}
+							variant={active === 3 ? 'contained' : 'outlined'}
+							onClick={() => handleClick(3)}
 						>
 							#3
 						</Button>
